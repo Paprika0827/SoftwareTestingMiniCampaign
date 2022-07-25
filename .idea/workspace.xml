@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffdcfaca-a662-4641-a386-522ff4fafc25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoftwareTestingMiniCampaign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/CompareCSVFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/ReadCSVFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/WriteCSVFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFiles/output.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFiles/sample_file_1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFiles/sample_file_3.csv" afterDir="false" />
+    <list default="true" id="ffdcfaca-a662-4641-a386-522ff4fafc25" name="Changes" comment="Add testing files and modified the CompareCSVFile to fulfill the requirement.">
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SoftwareMiniCampaignApp/CompareCSVFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SoftwareMiniCampaignApp/ReadCSVFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SoftwareMiniCampaignApp/WriteCSVFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFiles/readFileInvalid_test_3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFiles/readFile_test_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFiles/writeCSVFileTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareTestingMiniCampaign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareTestingMiniCampaign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/CompareCSVFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/CompareCSVFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/ReadCSVFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftwareMiniCampaignApp/ReadCSVFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,14 +53,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Hope/IdeaProjects/SoftwareTestingMiniCampaign",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="SoftwareMiniCampaignApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SoftwareMiniCampaignApp.App" />
       <module name="SoftwareTestingMiniCampaign" />
@@ -59,9 +91,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompareCSVFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingMiniCampaign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoftwareMiniCampaignApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SoftwareMiniCampaignApp" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareMiniCampaignApp.CompareCSVFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadCSVFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingMiniCampaign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoftwareMiniCampaignApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SoftwareMiniCampaignApp" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareMiniCampaignApp.ReadCSVFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteCSVFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingMiniCampaign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoftwareMiniCampaignApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SoftwareMiniCampaignApp" />
+      <option name="MAIN_CLASS_NAME" value="SoftwareMiniCampaignApp.WriteCSVFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.CompareCSVFileTest" />
+        <item itemvalue="JUnit.ReadCSVFileTest" />
+        <item itemvalue="JUnit.WriteCSVFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +154,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657552496254</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add project files">
+      <created>1657552968333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657552968333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add project files" />
+    <MESSAGE value="Add testing files and modified the CompareCSVFile to fulfill the requirement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add testing files and modified the CompareCSVFile to fulfill the requirement." />
   </component>
 </project>

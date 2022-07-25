@@ -21,6 +21,8 @@ public class CompareCSVFile {
         System.out.println(comparedItemIndexInLine);
         ArrayList<String[]> differentItems = new ArrayList<>();
         for (int i=0;i<csvFileLinesSplit1.size();i++){
+            int compareCount = 0;
+            boolean addedInThisLoop = false;
             for (int j=0;j<csvFileLinesSplit2.size();j++){
                 boolean flag = true;
                 for (Integer index : referenceItemIndexInLine){
@@ -37,12 +39,40 @@ public class CompareCSVFile {
                         }
                     }
                     if(isDifferent){
+                        if(!addedInThisLoop){
                             differentItems.add(csvFileLinesSplit1.get(i));
-                            differentItems.add(csvFileLinesSplit2.get(j));
+                            addedInThisLoop = true;
+                        }
+                        differentItems.add(csvFileLinesSplit2.get(j));
                     }
                 }
+                if(!flag){
+                    compareCount+=1;
+                }
+            }
+            if(compareCount==csvFileLinesSplit2.size()){
+                differentItems.add(csvFileLinesSplit1.get(i));
             }
         }
+
+        for (int m=0;m<csvFileLinesSplit2.size();m++){
+            int compareCount = 0;
+            for (int n=0;n<csvFileLinesSplit1.size();n++){
+                boolean flag = true;
+                for (Integer index : referenceItemIndexInLine){
+                    if (!csvFileLinesSplit1.get(n)[index].equals(csvFileLinesSplit2.get(m)[index])){
+                        flag = false;
+                    }
+                }
+                if(!flag){
+                    compareCount+=1;
+                }
+            }
+            if(compareCount==csvFileLinesSplit1.size()){
+                differentItems.add(csvFileLinesSplit2.get(m));
+            }
+        }
+
         return differentItems;
     }
 }
