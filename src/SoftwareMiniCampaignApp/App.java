@@ -9,12 +9,12 @@ public class App{
         //Edit under this line
         String filepath1 = "C:/Users/Hope/IdeaProjects/SoftwareTestingMiniCampaign/testFiles/sample_file_1.csv";
         String filepath2 = "C:/Users/Hope/IdeaProjects/SoftwareTestingMiniCampaign/testFiles/sample_file_3.csv";
+        String[] combination = {"\"Customer ID#\"","\"Type\"","\"Account No.\"","\"Balance\"","\"Currency\""};
         //Edit before this line
 
         //DON'T edit under this line
         ArrayList<String[]> csvFileLines1 = ReadCSVFile.readFileLines(filepath1);
         ArrayList<String[]> csvFileLines2 = ReadCSVFile.readFileLines(filepath2);
-        String[] combination = {"\"Customer ID#\"","\"Type\"","\"Account No.\"","\"Balance\"","\"Currency\""};
         ArrayList<String[]> differentItems = CompareCSVFile.compareCSVWithCombination(csvFileLines1,csvFileLines2,combination);
         //DON't edit before this line
 
