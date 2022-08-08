@@ -19,7 +19,7 @@ public class WriteCSVFile {
                     output += line[i];
                     output += ",";
                 }
-                output += line[line.length-1];
+                output += line[line.length-1];//avoid adding comma at the end of each line
                 writeText.write(output);
                 writeText.newLine();
             }

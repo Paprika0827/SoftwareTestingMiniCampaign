@@ -11,12 +11,12 @@ public class ReadCSVFile {
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
-        ArrayList<String[]> fileLines = new ArrayList<>();
+        ArrayList<String[]> fileLines = new ArrayList<>();//the final output is the array list containing the lists of the items in each line
         try {
 
             br = new BufferedReader(new FileReader(filePath));
             while ((line = br.readLine()) != null) {
-                String[] lineItems = line.split(cvsSplitBy);
+                String[] lineItems = line.split(cvsSplitBy);//split the items
                 fileLines.add(lineItems);
 
             }
